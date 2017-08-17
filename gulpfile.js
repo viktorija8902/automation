@@ -28,8 +28,7 @@ gulp.task('default', ['copy-html', 'copy-images', 'styles', 'lint', 'scripts'], 
 gulp.task('dist', [
 	'copy-html',
 	'copy-images',
-	'styles',
-	'lint',
+	'styles-dist',
 	'scripts-dist'
 ]);
 
@@ -78,6 +77,17 @@ gulp.task('styles', function() {
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest('dist/css'))
 		.pipe(browserSync.stream());
+});
+
+gulp.task('styles-dist', function() {
+	gulp.src('sass/**/*.scss') 
+		.pipe(sourcemaps.init())
+		.pipe(sass({outputStyle: 'compressed'})).on('error', sass.logError) // converts scss to css, logs error if it happens
+		.pipe(autoprefixer({
+			browsers: ['last 2 versions']
+		}))
+		.pipe(sourcemaps.write())
+		.pipe(gulp.dest('dist/css'));
 });
 
 gulp.task('scripts', function() {
