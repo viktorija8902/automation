@@ -1,0 +1,38 @@
+{
+  "name": "automatization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "browser-sync": "^2.18.13",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-jasmine-phantom": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-pngquant": "^5.0.1"
+  },
+  "scripts": {
+    "test": "gulp tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktorija8902/automatization.git"
+  },
+  "author": "Viktorija Bezsazna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktorija8902/automatization/issues"
+  },
+  "homepage": "https://github.com/viktorija8902/automatization#readme"
+}
