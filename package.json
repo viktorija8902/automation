@@ -1,5 +1,5 @@
 {
-  "name": "automatization",
+  "name": "automation",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viktorija8902/automatization.git"
+    "url": "git+https://github.com/viktorija8902/automation.git"
   },
   "author": "Viktorija Bezsazna",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/viktorija8902/automatization/issues"
+    "url": "https://github.com/viktorija8902/automation/issues"
   },
-  "homepage": "https://github.com/viktorija8902/automatization#readme"
+  "homepage": "https://github.com/viktorija8902/automation#readme"
 }
