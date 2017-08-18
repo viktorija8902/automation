@@ -4,7 +4,7 @@ This project is a result of my experiments with Gulp.
 
 **Tasks in gulpfile.js include:**
 
-* live editing (.scss, .html, .js files)
+* live editing (.scss, .html files)
 * code correction with ESlint
 * converting ES6 to JS
 * JS concatenation and minification
